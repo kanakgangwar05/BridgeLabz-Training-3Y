@@ -1,0 +1,141 @@
+ANS1. Real-World Example: Online Shopping Website:
+
+Imagine an online shopping website like Amazon.
+
+Frontend Developer's Work:
+Designs the homepage, product pages, shopping cart, and checkout screen.
+Ensures buttons, images, and menus work properly. 
+Makes the website responsive for mobile and desktop users.
+
+Backend Developer's Work:
+Stores product information in the database. Processes user login and authentication.
+Manages orders, payments, and inventory. 
+Retrieves product details when a customer searches for an item.
+
+Full-Stack Developer's Work : 
+Builds the product page that customers see.
+Creates the backend API that fetches product details.
+Connects the frontend with the database.
+Implements the complete shopping cart and checkout functionality.
+
+
+ANS2.
+        CLIENT                         SERVER
+   (Web Browser)                   (Web Server)
+        |                               |
+        | ------ HTTP Request --------> |
+        |                               |
+        | <----- HTTP Response -------- |
+        |                               |
+   Displays the                    Processes the
+   web page                         request
+
+The client is usually a web browser such as Chrome, Firefox, or Edge. It sends a request to the web server using HTTP/HTTPS. The server processes the request and sends the required web page or data back to the client. The browser then displays the received content to the user.
+
+
+ANS3. The process works as follows:
+
+1. User enters a URL: The user enters a website address in the browser and presses Enter.
+2. DNS Lookup: The browser finds the IP address of the web server associated with the domain name.
+3. Connection is established: The browser establishes a connection with the web server.
+4. HTTP Request: The browser sends an HTTP/HTTPS request to the server for the required web page.
+5. Server processes the request: The web server processes the request and may retrieve required data from a database.
+6. Server sends a response: The server sends the requested HTML, CSS, JavaScript, images, and other resources back to the browser.
+7. Browser renders the page: The browser reads the HTML, applies CSS, executes JavaScript, and creates the visual layout.
+8. Web page is displayed: The completed web page is displayed on the user's screen.
+
+
+ANS4. The following tools are commonly required:
+
+1. Code Editor – Used to write and edit HTML, CSS, and JavaScript code.
+Examples: Visual Studio Code, Sublime Text, Notepad++.
+2. Web Browser – Used to run and test web pages and check how they appear to users.
+Examples: Google Chrome, Mozilla Firefox, Microsoft Edge.
+3. Web Server – Used to serve web pages and applications to the browser.
+Examples: Apache, Nginx, Node.js.
+4. Version Control System – Used to track changes in code and manage different versions of a project.
+Example: Git.
+5. Repository Hosting Platform – Used to store and share source code online.
+Examples: GitHub, GitLab, Bitbucket.
+6. Terminal/Command Prompt – Used to execute commands, install packages, run programs, and manage projects.
+Examples: Git Bash, Windows Terminal, Command Prompt.
+
+
+ANS5. A web server is a software or computer system that receives requests from web browsers and sends the requested web pages or resources back to them using protocols such as HTTP or HTTPS.
+
+For example, when a user enters a website URL in a browser, the browser sends a request to the web server. The server processes the request and returns resources such as HTML, CSS, JavaScript, images, or data, which the browser displays as a web page.
+
+Commonly used web servers:
+
+1. Apache HTTP Server – A popular open-source web server used for hosting websites.
+2. Nginx – A high-performance web server commonly used for websites, APIs, and reverse proxying.
+3. Microsoft IIS – A web server developed by Microsoft, commonly used with Windows-based applications.
+4. Node.js – A JavaScript runtime that can be used to create web servers and backend applications.
+5. Tomcat – An open-source server commonly used to run Java web applications.
+
+
+ANS6. Frontend Developer:
+A frontend developer is responsible for creating the part of a website or application that users see and interact with. They use technologies such as HTML, CSS, and JavaScript to design the user interface and make it responsive and user-friendly.
+
+Backend Developer:
+A backend developer works on the server-side of an application. They develop the logic that processes user requests, handle authentication, create APIs, and communicate with databases. Common technologies include Java, Python, Node.js, PHP, and .NET.
+
+Database Administrator (DBA):
+A database administrator is responsible for managing and maintaining the project's databases. They handle tasks such as creating databases, managing data, controlling user access, maintaining security, backups, and database performance.
+
+ANS8. Static Website:
+A static website displays fixed content to users. The content generally remains the same for every visitor unless the website files are manually changed. Static websites are mainly created using HTML and CSS, with JavaScript sometimes used for additional functionality.
+
+Example: A personal portfolio or simple company information website.
+
+Dynamic Website:
+A dynamic website generates or changes content based on user interaction, database information, login details, or other factors. It usually uses frontend technologies along with backend programming and databases.
+
+Example: Amazon, where product listings, prices, recommendations, and user information can change dynamically.
+
+
+ANS9. A rendering engine is the part of a web browser that processes HTML and CSS and converts them into the webpage displayed on the screen. Different rendering engines may interpret and display some web features differently.
+Difference between the rendering engines
+Blink – Used by Chrome, Edge, and Opera. It is part of the Chromium project and handles HTML, CSS, layout, and rendering of webpages.
+Gecko – Used by Firefox. It is Mozilla's independent rendering engine and has its own implementation of web standards.
+WebKit – Used by Safari. It is Apple's rendering engine and is especially important for Apple's platforms.
+
+
+ANS10.             WEB ARCHITECTURE
+
+              ┌──────────────────┐
+              │      CLIENT      │
+              │  Web Browser     │
+              │ Chrome / Edge    │
+              └────────┬─────────┘
+                       │
+                  HTTP/HTTPS
+                    Request
+                       │
+                       ▼
+              ┌──────────────────┐
+              │      SERVER      │
+              │  Web / Backend   │
+              │     Server       │
+              └────────┬─────────┘
+                       │
+                  API Calls
+                       │
+                       ▼
+              ┌──────────────────┐
+              │       APIs       │
+              │ Application      │
+              │ Programming     │
+              │   Interface     │
+              └────────┬─────────┘
+                       │
+                 Database Query
+                       │
+                       ▼
+              ┌──────────────────┐
+              │     DATABASE     │
+              │  Stores website  │
+              │      data        │
+              └──────────────────┘
+
+        Response/Data flows back to the Client
