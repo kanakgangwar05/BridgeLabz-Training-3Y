@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <style>
+    body{
+        font-family: Arial, sans-serif;
+        background:#f5f5f5;
+    }
+
+    h2{
+        text-align:center;
+        margin-top:20px;
+    }
+
+    table{
+        width:650px;
+        margin:20px auto;
+        border-collapse:collapse;
+        background:white;
+    }
+
+    table, th, td{
+        border:1px solid black;
+    }
+
+    th, td{
+        padding:10px;
+    }
+
+    th{
+        text-align:center;
+        background:#f2f2f2;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=date],
+    select,
+    textarea{
+        width:95%;
+        padding:6px;
+    }
+
+    textarea{
+        resize:none;
+    }
+
+    .btn{
+        padding:6px 15px;
+        margin:5px;
+    }
+
+    .center{
+        text-align:center;
+    }
+</style>
+
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+<table>
+
+<tr>
+    <th colspan="2">Registration Form</th>
+</tr>
+
+<tr>
+    <td><b>Full Name</b></td>
+    <td>
+        <input type="text" placeholder="Enter your name">
+    </td>
+</tr>
+
+<tr>
+    <td><b>Email</b></td>
+    <td>
+        <input type="email" placeholder="abc@gmail.com">
+    </td>
+</tr>
+
+<tr>
+    <td><b>Phone Number</b></td>
+    <td>
+        <input type="tel" placeholder="9876543210">
+    </td>
+</tr>
+
+<tr>
+    <td><b>Date of Birth</b></td>
+    <td>
+        <input type="date">
+    </td>
+</tr>
+
+<tr>
+    <td><b>Gender</b></td>
+    <td>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+    </td>
+</tr>
+
+<tr>
+    <td><b>Skills</b></td>
+    <td>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JavaScript
+    </td>
+</tr>
+
+<tr>
+    <td><b>Course</b></td>
+    <td>
+        <select>
+            <option>--Select Course--</option>
+            <option>BCA</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>MCA</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td><b>Address</b></td>
+    <td>
+        <textarea rows="4"></textarea>
+    </td>
+</tr>
+
+<tr>
+    <td><b>Upload Resume</b></td>
+    <td>
+        <input type="file">
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2" class="center">
+        <input type="submit" value="Register" class="btn">
+        <input type="reset" value="Reset" class="btn">
+    </td>
+</tr>
+
+</table>
+</form>
+    
+</body>
+</html>
