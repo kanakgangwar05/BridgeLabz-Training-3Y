@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f2f6fa;
+    color: #222;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 80px;
+
+    background-color: #1e3a5f;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 5%;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 1em;
+    margin-left: 25px;
+}
+
+main {
+    flex: 1;
+
+    /* Space because header is fixed */
+    margin-top: 80px;
+}
+
+.intro {
+    min-height: 70vh;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5%;
+}
+
+.bio {
+    width: 55%;
+}
+
+
+.bio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.profile {
+    width: 30%;
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 5px solid #1e3a5f;
+
+    object-fit: cover;
+}
+
+footer {
+    min-height: 10vh;
+
+    background-color: #1e3a5f;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+}
