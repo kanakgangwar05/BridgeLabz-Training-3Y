@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #151515;
+    font-family: Arial, sans-serif;
+}
+.card {
+    width: 375px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+.image-box {
+    height: 295px;
+    background: #e9001b;
+    position: relative;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.discount {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: red;
+    color: white;
+    padding: 9px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.heart {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 53px;
+    height: 53px;
+    background: white;
+    border-radius: 50%;
+    font-size: 38px;
+    text-align: center;
+    line-height: 48px;
+    z-index: 2;
+}
+.details {
+    padding: 28px 23px 24px;
+}
+
+.category {
+    display: inline-block;
+    margin: 5px 0 10px;
+    background: #4475ce;
+    color: white;
+    font-size: 19px;
+}
+
+h2 {
+    display: inline;
+    background: #4475ce;
+    color: white;
+    font-size: 23px;
+    line-height: 1.7;
+}
+.rating {
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.rating span {
+    color: #888;
+    font-size: 18px;
+}
+.price {
+    margin-top: 18px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.price del {
+    margin-left: 12px;
+    color: #888;
+    font-size: 17px;
+    font-weight: normal;
+}
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
