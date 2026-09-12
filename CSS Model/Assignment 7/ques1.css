@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+.box {
+    width: 180px;
+    background-color: white;
+    transition: border-color 0.3s;
+}
+.solid {
+    border: 4px solid blue;
+    padding: 20px;
+}
+
+.dashed {
+    border: 4px dashed green;
+    padding: 30px;
+}
+
+.double {
+    border: 6px double red;
+    padding: 15px;
+}
+
+.groove {
+    border: 6px groove purple;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.box:hover {
+    border-color: orange;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

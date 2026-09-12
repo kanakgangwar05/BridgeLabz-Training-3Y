@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+.box1 {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 30%;
+    height: 20vh;
+    max-width: 300px;
+    background-color: lightgreen;
+}
+
+.box3 {
+    width: 12em;
+    min-height: 150px;
+    max-width: 220px;
+    background-color: lightpink;
+}

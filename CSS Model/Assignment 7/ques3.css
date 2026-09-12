@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 1;
+}
+section {
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.linear {
+    background: linear-gradient(to right, blue, purple);
+    background-attachment: fixed;
+}
+.radial {
+    background: radial-gradient(circle, orange, red);
+}
