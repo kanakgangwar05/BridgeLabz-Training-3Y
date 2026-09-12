@@ -1,0 +1,65 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, lightblue, white);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px gray;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+select {
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+.cancel {
+    background-color: gray;
+}
+
+.cancel:hover {
+    background-color: #555;
+}

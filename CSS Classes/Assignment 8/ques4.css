@@ -1,0 +1,53 @@
+/* Element selector */
+p {
+    font-size: 18px;
+}
+
+/* Class selector */
+.special {
+    color: blue;
+}
+
+/* ID selector */
+#important {
+    color: red;
+}
+
+/* Attribute selector */
+a[href] {
+    color: green;
+}
+
+/* Child combinator > */
+ul > li {
+    margin: 8px;
+}
+
+/* Adjacent sibling + */
+h2 + p {
+    font-weight: bold;
+}
+
+/* General sibling ~ */
+h2 ~ ul {
+    border: 2px solid gray;
+}
+
+/* Descendant selector */
+div p {
+    background-color: lightyellow;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main content */
+.content {
+    padding: 30px;
+}
+
