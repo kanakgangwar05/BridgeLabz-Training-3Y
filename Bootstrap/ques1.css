@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-color: #253b80;
+    padding: 100px 20px;
+}
+
+footer {
+    margin-top: 0;
+}

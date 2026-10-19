@@ -1,0 +1,27 @@
+
+:root {
+    --bs-primary: #6f42c1;
+    --bs-font-sans-serif: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.blog-header {
+    background-color: #eee7ff;
+    color: #3d246e;
+}
+
+.blog-footer {
+    background-color: #3d246e;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
