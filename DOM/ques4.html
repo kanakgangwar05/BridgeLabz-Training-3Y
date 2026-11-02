@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Switcher</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .light-theme {
+            background-color: white;
+            color: black;
+        }
+
+        .dark-theme {
+            background-color: black;
+            color: white;
+        }
+
+        .blue-theme {
+            background-color: lightblue;
+            color: darkblue;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body class="light-theme" data-theme="light">
+
+    <h2>Theme Switcher</h2>
+
+    <button onclick="changeTheme('light')">Light</button>
+
+    <button onclick="changeTheme('dark')">Dark</button>
+
+    <button onclick="changeTheme('blue')">Blue</button>
+
+    <p id="result">Current Theme: Light</p>
+
+    <script src="ques4.js"></script>
+</body>
+</html>
